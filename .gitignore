@@ -1,0 +1,6 @@
+# Web dependency
+node_modules
+
+# Compiled output
+dist
+.cache
