@@ -28,3 +28,19 @@ Version 3.4.5
 tsc --watch --out dist/app.js index.ts
 ´´´
 
+# Existen muchas otras banderas que configurar la forma como
+# Typescript compila nuestros archivos. Una forma de
+# consultarlas podemos ejecutar el comando ´tsc --help´.
+# Sin embargo es probable que no utilicemos estos comandos
+# desde la terminal sino a través de un archivo de
+# configuración de Typescript. Para generar este archivo
+# ejecutamos:
+
+´´´
+tsc --init
+´´´
+
+# Este comando nos va a generar un archivo ´tsconfig.json´
+# con una configuración básica. Ya usando este archivo
+# de configuración sólo necesitamos ejecutar ´tsc´ para
+# compilar todos los archivos ´.ts´ de nuestro proyecto.
