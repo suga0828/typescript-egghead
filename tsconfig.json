@@ -62,6 +62,7 @@
     "noEmitOnError": true
   },
   "files": [
-    "src/main.ts"
+    "src/main.ts",
+    "src/another.ts"
   ]
 }

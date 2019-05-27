@@ -92,3 +92,9 @@ System.config({
 # escuchando cambios y luego sólo debemos
 # refrescar el browser para observar los
 # cambios.
+
+# De igual forma podemos compilar otro archivo
+# 'principal' y usarlo como principal en
+# nuestro index.html, sólo basta modificar el
+# el archivo pricipal en nuestra configuración
+# de cargador de mòdulos.
