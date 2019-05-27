@@ -98,3 +98,12 @@ System.config({
 # nuestro index.html, sólo basta modificar el
 # el archivo pricipal en nuestra configuración
 # de cargador de mòdulos.
+
+# En este punto es bueno recordar algunas de las
+# herramientras o beneficios de los que nos provee
+# Typescript. Uno de ellos son las interfaces, que
+# son contratos que establecen los tipos (complejos)
+# de datos que vamos a manejar. Al momento de
+# compilar las interfaces observamos que éstas
+# no contienen código y sólo son de ayuda en
+# el proceso de desarrollo. 
