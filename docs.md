@@ -59,9 +59,36 @@ tsc --init
     ...
 +   "noEmitOnError": true
   },
-  
+
 + "files": [
 +   "main.ts"
 + ]
 }
 ```
+
+# Adicionalmente debemos configurar un sistema de
+# paquetes para ello usamos la librería (SystemJS)[https://www.npmjs.com/package/systemjs].
+# que se encargará de generar la carga de los script
+# compilados. Podemos cargar la librería a través de CDN en un
+# archivo index.html y establecer una configuración
+# básica. Un script para hacerlo puede ser:
+
+```
+System.config({
+      packages: {
+        "dist": {
+          "defaultExtension": "js",
+          "main": "main"
+        }
+      }
+    });
+
+    System.import("dist");
+```
+
+# En este archivo de confiración establecemos
+# el directorio donde tomamos los script y el
+# script principal. También podemos compilar
+# escuchando cambios y luego sólo debemos
+# refrescar el browser para observar los
+# cambios.

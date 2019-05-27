@@ -5,9 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <script src="https://unpkg.com/systemjs@0.19.26/dist/system.js"></script>
 </head>
 <body>
   
-  <script src="./index.ts"></script>
+  <script>
+    System.config({
+      packages: {
+        "dist": {
+          "defaultExtension": "js",
+          "main": "main"
+        }
+      }
+    });
+
+    System.import("dist");
+  </script>
 </body>
 </html>
