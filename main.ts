@@ -1,0 +1,4 @@
+import './two';
+
+class App {
+}

@@ -1,1 +1,3 @@
-console.log('Two compiles, all by tsconfig.json');
+class Two {
+  
+}

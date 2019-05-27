@@ -12,6 +12,7 @@
     "parcel"
   ],
   "devDependencies": {
+    "parcel-bundler": "^1.12.3",
     "typescript": "^3.4.5"
   },
   "author": "Alexander Sandoval",
